@@ -264,6 +264,24 @@
     .pull{ font-size:21px; }
     footer{ flex-direction:column; align-items:flex-start; }
   }
+
+  /* ---------- WATCH ---------- */
+  .watch{ padding:56px 0; }
+  .watch .section-eyebrow{ color:var(--gold-deep); }
+  .watch .section-title{ margin-bottom:22px; }
+  .video-embed{
+    position:relative; width:100%; padding-top:56.25%;
+    border-radius:10px; overflow:hidden;
+    background:var(--dark);
+    box-shadow:0 18px 40px -18px rgba(43,33,24,0.45);
+  }
+  .video-embed iframe{
+    position:absolute; top:0; left:0; width:100%; height:100%; border:0;
+  }
+  .watch-dl{
+    font-family:'DM Mono', monospace; font-size:12px; color:var(--ink-soft);
+    text-decoration:underline; text-underline-offset:3px; margin-top:14px; display:inline-block;
+  }
 </style>
 </head>
 <body>
@@ -290,7 +308,7 @@
         <div class="pp-org">I The Greatest Productions<br>Field Press Credential</div>
         <div class="pp-eye">I</div>
       </div>
-      <div class="pp-name">Erica Myers</div>
+      <div class="pp-name">E.Myers</div>
       <div class="pp-alias">a.k.a. “Eyes” — self-issued, Kinko's, New York City</div>
       <div class="pp-meta">
         <div><strong>Born</strong>Feb 5, 1980</div>
@@ -302,7 +320,7 @@
   <div class="pp-caption">She printed her own press pass at 18 and walked into New York like she'd been hired. No one ever told her otherwise.</div>
 
   <p class="dek" style="margin-top:40px;">
-    Before she was a brand, she was a kid setting scenes with her toys. Before she was a survivor of nine surgeries, she was a girl with a police scanner and a best friend named Kylie, chasing sirens with a camcorder because the story wouldn't come to her. This is Erica Myers — <span>visionary, creator, and the greatest, in her own right</span> — answering the only five questions that have ever mattered: who, what, when, where, and why.
+    Before she was a brand, she was a kid setting scenes with her toys. Before she was a survivor of nine surgeries, she was a girl with a police scanner and a best friend named Kylie, chasing sirens with a camcorder because the story wouldn't come to her. This is E.Myers — <span>visionary, creator, and the greatest, in her own right</span> — answering the only five questions that have ever mattered: who, what, when, where, and why.
   </p>
 
   <!-- WHO -->
@@ -314,7 +332,7 @@
         <div class="section-title">Who is Erica?</div>
       </div>
     </div>
-    <p class="prompt-line">Who is the daughter of Gloria Myers? Who is the lady who made beautiful music at 352 Mattianic Avenue? Who is Erica Myers?</p>
+    <p class="prompt-line">Who is the daughter of Gloria Myers? Who is the lady who made beautiful music at 352 Mattianic Avenue? Who is E.Myers?</p>
     <div class="answer">
       <p><span class="drop">I</span> would describe Erica as a visionary. I always had an imagination, and I always acted on it — even going back to the early '80s, when I was a child. The way I played with my toys, it was always setting up a scene of some sort. I've always had a very inquisitive mind — I needed to know what the deal was. I'm laid back, not shy, but people perceive it as shy because I'm such an observer. When I go quiet, I'm watching.</p>
       <p>I'm the type of person who likes to try new things, likes to learn new things, and with the way technology is now, I can learn on my own. I don't need instruction from a human — I can go online and figure it out myself. Who Erica is, at the core, is someone who likes to create. I am a creator. If I didn't have any technology, if I didn't have a camera, if I didn't have any way to make music, I would still create something — even if I had to write it in the sand.</p>
@@ -425,6 +443,22 @@
       </div>
     </div>
   </div>
+
+  <!-- WATCH -->
+  <section class="watch">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-titles">
+          <div class="section-eyebrow">Now Streaming</div>
+          <div class="section-title">Watch the Full Episode</div>
+        </div>
+      </div>
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/-_p93CbJDQY" title="Eyes The Greatest — A Profile in Five Questions (feat. E.Myers)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <a class="watch-dl" href="https://youtu.be/-_p93CbJDQY" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+    </div>
+  </section>
 
   <footer>
     <span>I The Greatest Productions</span>
